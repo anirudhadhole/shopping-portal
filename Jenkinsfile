@@ -22,7 +22,7 @@ pipeline {
       }
     }
 
-    stage('Achieve') {
+    stage('Archive') {
       steps {
         archiveArtifacts '**/distribution/*.zip'
       }
